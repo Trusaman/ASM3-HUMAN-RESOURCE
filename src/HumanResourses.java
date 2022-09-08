@@ -1,9 +1,11 @@
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Scanner;
 
 public class HumanResourses {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        Manager m1 = new Manager("1","Thanh", 28, 10000.0,"20/02/1997","Business leader",1,"1");
         outer:
         while (true) {
             System.out.println("1. Hiển thị danh sách nhân viên hiện có trong công ty.");
@@ -22,7 +24,10 @@ public class HumanResourses {
                 default:
                     break;
             }
-
         }
     }
+    /*
+        id, name, age, salaryBase, startingDate, department, leaveDays
+    */
+
 }
