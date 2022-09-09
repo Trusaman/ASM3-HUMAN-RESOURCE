@@ -21,6 +21,9 @@ public class HumanResourses {
             switch (choice) {
                 case 0:
                     break outer;
+                case 1:
+                    // Do something
+                    break outer;
                 default:
                     break;
             }
@@ -29,5 +32,5 @@ public class HumanResourses {
     /*
         id, name, age, salaryBase, startingDate, department, leaveDays
     */
-
+    /*Just a test*/
 }
